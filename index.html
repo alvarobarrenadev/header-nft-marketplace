@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS Proyectos 04 - Header NFT Marketplace</title>
+
+    <meta name="description" content="The largest NFT market with exceptional items on the bid" />
+    <meta name="author" content="Álvaro Barrena Revilla" />
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="img/nft-logo.svg" alt="Logotipo de NFT Marketplace">
+      </a>
+
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#">Market</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+
+      <aside class="header__login">
+        <ul>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </aside>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">The largest NFT market with exceptional items on the bid</h1>
+        <p class="hero__subtitle">Collectible and non-fungible tokens in your hands</p>
+        <div class="hero__buttons">
+          <a href="#">Explore</a>
+          <a href="#">Learn more <img src="img/arrow-right.svg" alt="Flecha derecha"></a>
+        </div>
+      </section>
+
+      <section class="featured">
+        <h2 class="featured__arrow">Featured Artwork</h2>
+        <div class="featured__imgs">
+          <img width="400px" src="img/project-1-img.png" alt="Proyecto 1">
+          <img width="400px" src="img/project-2-img.png" alt="Proyecto 2">
+        </div>
+      </section>
+
+      <article class="nft">
+        <div class="nft__img_container">
+          <img src="img/nft-image.png" alt="NFT">
+        </div>
+
+        <div class="data">
+          <div class="nft__header">
+
+            <div class="nft__owner">
+              <img src="img/nft-owner.png" alt="Foto de perfil del propietario del NFT">
+              <div class="nft__owner_data">
+                <p class="nft__username">@samanthaw</p>
+                <p class="nft__name">Artwork #01</p>
+              </div>
+            </div>
+
+            <div class="nft__price">
+              <p class="nft__price_current">Current Bid</p>
+              <p class="nft__price_number">1.00 ETH</p>
+            </div>
+
+            <div class="nft__buttons">
+              <a href="#">Bid now</a>
+              <a href="#">View Artwork</a>
+            </div>
+
+            <div class="nft__numbers">
+              <div><span class="nft__number">50k+</span> Artwork</div>
+              <div><span class="nft__number">30k+</span> Artist</div>
+              <div><span class="nft__number">20k+</span> Auction</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
