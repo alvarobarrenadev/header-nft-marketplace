@@ -118,6 +118,18 @@ main {
             max-width: 95%;
             padding-right: 40px;
             margin-bottom: 20px;
+
+            img {
+                position: absolute;
+                width: 214px;
+                left: 232px;
+            }
+
+            @media (max-width: 1500px) {
+                img {
+                    left: 120px;
+                }
+            }
         }
 
         &__subtitle {
